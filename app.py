@@ -23,7 +23,7 @@ def index():
                     query = request.form['content'].replace(" ","")
 
                             # directory to store downloaded images
-                    save_directory = "E:/iNeuronIntelligence/Python/project/images"
+                    save_directory = "/images"
 
                             # create the directory if it doesn't exist
                     if not os.path.exists(save_directory):
